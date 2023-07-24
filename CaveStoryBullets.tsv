@@ -1,0 +1,47 @@
+ID (dec)	ID (hex)	Bullet Name	Function Address	Function Pointer	Other notes
+0	0	Null	N/A	N/A	
+1	1	Snake 1	404160	409053	
+2	2	Snake 2	4043F0	40906F	
+3	3	Snake 3	4043F0	40908B	
+4	4	Polar Star 1	4047B0	4090A6	
+5	5	Polar Star 2	4047B0	4090C2	
+6	6	Polar Star 3	4047B0	4090DE	Also known as Spur lv0
+7	7	Fireball 1	404B30	4090F9	
+8	8	Fireball 2	404B30	409115	
+9	9	Fireball 3	404B30	409131	
+10	A	Machine Gun 1	405120	40914C	
+11	B	Machine Gun 2	405120	409168	
+12	C	Machine Gun 3	405120	409184	
+13	D	Missile 1	4055A0	40919F	
+14	E	Missile 2	4055A0	4091BB	
+15	F	Missile 3	4055A0	4091D7	
+16	10	Missile Explosion 1	405D80	4091F2	
+17	11	Missile Explosion 2	405D80	40920E	
+18	12	Missile Explosion 3	405D80	40922A	
+19	13	Bubbler 1	405F30	409243	
+20	14	Bubbler 2	406190	40925D	
+21	15	Bubbler 3	4064D0	409277	
+22	16	Bubbler 3 (after popping)	4068B0	409290	
+23	17	Blade 3 Slashes	4.08E+03	4092AA	
+24	18	Falling Spike Hitbox	4078A0	4092C4	Those -127 spikes in destroyed Egg Corridor
+25	19	Blade 1	406BB0	4092DD	
+26	1A	Blade 2	4.06E+62	4092F7	
+27	1B	Blade 3	407110	409311	
+28	1C	Super Missile 1	407910	40932C	
+29	1D	Super Missile 2	407910	409348	
+30	1E	Super Missile 3	407910	409364	
+31	1F	Super Missile Explosion 1	408080	40937F	
+32	20	Super Missile Explosion 2	408080	40939B	
+33	21	Super Missile Explosion 3	408080	4093B7	
+34	22	Nemesis 1	408230	4093D2	
+35	23	Nemesis 2	408230	4093EE	
+36	24	Nemesis 3	408230	40940A	
+37	25	Spur 1	408710	409425	
+38	26	Spur 2	408710	409441	
+39	27	Spur 3	408710	40945D	
+40	28	Spur trail 1	408AE0	409478	
+41	29	Spur trail 2	408AE0	409491	
+42	2A	Spur trail 3	408AE0	4094AA	
+43	2B	Curly's Nemesis	408230	4094C2	"Code jumps to lvl 1 Nemesis, used for not triggering the ""Max Bullets on Screen"" limiter."
+44	2C	Kill All	408F40	4094D9	"10,000 damage in a 200x200 tile hitbox"
+45	2D	Whimsical Star Hitbox	408F90	4094F0	

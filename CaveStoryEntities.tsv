@@ -1,0 +1,427 @@
+ID (dec)	ID (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other notes	Function Pointer	Left Rect	Right Rect	Default Sprite Sheet
+0	0	Null	426530			Direction 2 = Moves 1 block down immediately when spawned	498548			
+1	1	EXP	4265B0			EXP drop on death value [X+44] = EXP get	49854C			
+2	2	Behemoth (enemy)	426AF0				498550			
+3	3	"Null, spawned upon NPC death, disappears"	426FD0			"Lasts 100 (0x64) frames, used to hold and indicate the position damage values are displayed after an NPC is killed"	498554			
+4	4	Smoke	427040				498558			
+5	5	"Critter, Hopping Green (enemy)"	427480				49855C			
+6	6	"Beetle, Horizontal Green (enemy)"	427820				498560			
+7	7	Basil (enemy)	427C60				498564			
+8	8	"Beetle, Follow Green (enemy)"	427F00				498568			
+9	9	"Balrog, falling"	428260				49856C			
+10	A	"Balrog, Shooting (boss)"	428540				498570			
+11	B	Balrog energy ball invincible	4289B0	Projectile	Partial		498574			
+12	C	"Balrog, standing/cutscene ANPs"	428B10			"ANP 10 = Superjump up, ANP 20 = Defeated animation, ANP 30 = Smile, ANP 40 = Panic, ANP 50 = Inspecting, ANP 100 = Superjump up, breaks tiles"	498578			
+13	D	Forcefield	429940				49857C			
+14	E	Santa's Key	429A30				498580			
+15	F	"Treasure Chest, closed"	429BF0			Affected by gravity	498584			
+16	10	Save Point	4.29E+02				498588			
+17	11	Health/Ammo Refill	42A0B0				49858C			
+18	12	Door	42A360				498590			
+19	13	"Balrog, busts in"	42A490				498594			
+20	14	Computer	42A830			"Direction 0 = Screen off, 2 = Screen on"	498598			
+21	15	"Treasure Chest, open"	42A940			Not affected by gravity	49859C			
+22	16	Teleporter	42A9C0				4985A0			
+23	17	Teleporter lights	42AA70				4985A4			
+24	18	Power Critter (enemy)	42ABD0				4985A8			
+25	19	Lift Platform / Elevator	42B280			"ANP 1 = Set home above self, ANP 2 = Set home to self, ANP 9 = Disabled"	4985AC			
+26	1A	"Bat, Black Circling (enemy)"	42B5E0				4985B0			
+27	1B	Death Spikes	42BA90				4985B4			
+28	1C	"Critter, Flying Green (enemy)"	42BAE0				4985B8			
+29	1D	Cthulhu	42C1A0				4985BC			
+30	1E	Hermit Gunsmith	42C320				4985C0			
+31	1F	"Bat, Black Hanging (enemy)"	42C4C0				4985C4			
+32	20	Life Capsule	42CA10				4985C8			
+33	21	Balrog energy ball bouncing (projectile)	42CAC0	Projectile	Partial		4985CC			
+34	22	Bed	42CC20				4985D0			
+35	23	Mannan (enemy)	42CCB0				4985D4			
+36	24	"Balrog, Flying (boss)"	42D010				4985D8			
+37	25	Signpost	42D760				4985DC			
+38	26	Fireplace	42D810			"ANP 1 = No animation, ANP 10 = Extinguished"	4.99E+03			
+39	27	Save / Cocktail Sign	42D960				4.99E+07			
+40	28	Santa	42D9F0			ANP 3 = Walk forward	4.99E+11			
+41	29	Busted doorway	42DE00				4985EC			
+42	2A	Sue	42DE70			"ANP 3 = Walk forward, ANP 5 = Inspecting, ANP 8 = Knocked down, ANP 10 = Fall over, ANP 11 = Throw tantrum, ANP 15 = Send Red Crystal, ANP 17 = Worried, ANP 20 = Run left, ANP 30 = Run forward, ANP 40 = Small jump"	4985F0			
+43	2B	Blackboard/Table	42E9F0			"Direction 0 = Blackboard, 2 = Table and poster"	4985F4			
+44	2C	Polish (enemy)	42EAB0				4985F8			
+45	2D	Baby (enemy)	42F060				4985FC			
+46	2E	H/V Trigger	42F320			"Direction 0 = Horizontal, 2 = Vertical. Moves at 0.1873779296875 blocks per frame, or 9.368896484375 blocks per second."	498600			
+47	2F	"Sandcroc, Green (enemy)"	42F3F0				498604			
+48	30	Omega mudball (projectile)	42F780		Partial		498608			
+49	31	Skullhead (enemy)	42F9E0				49860C			
+50	32	Bone (projectile)	42FEC0				498610			
+51	33	Crow & Skullhead (enemy)	4301B0				498614			
+52	34	"Blue Robot, sitting"	430780				498618			
+53	35	Skullstep Leg (enemy)	4307D0		Crash		49861C			
+54	36	Skullstep (enemy)	430B00				498620			
+55	37	Kazuma	430EB0				498624			
+56	38	"Beetle, Horizontal Brown (enemy)"	4311D0				498628			
+57	39	Crow (enemy)	4.32E+03			"ANP 1 = Reset to neutral, ANP 2 = Aggressive, ANP 3 = Fly forward"	49862C			
+58	3A	"Basu, 1 (enemy)"	431C20				498630			
+59	3B	Evil Door (enemy)	4321F0				498634			
+60	3C	Toroko	432460			"ANP 3 = Running left and right, ANP 6 = Jump and then run left and right, ANP 8 = Jump, ANP 10 = Fall over"	498638			
+61	3D	King	432B50			"ANP 5 = Fall over, ANP 8 = Walk forward, ANP 10 = Run forward, ANP 20 = Holding sword, ANP 30 = Knocked down, ANP 40 = Death animation, ANP 60 = Jump right"	49863C			
+62	3E	"Kazuma, facing away"	4334C0				498640			
+63	3F	"Toroko, panicking w/ stick"	4336C0				498644			
+64	40	"Critter, Hopping Blue (enemy)"	433C00				498648			
+65	41	"Bat, Blue Vertical (enemy)"	433FC0				49864C			
+66	42	Misery bubble (projectile)	4342B0			"Targets the first npc with event 1000, deletes it on contact and switches to a different rect/behavior"	498650			
+67	43	"Misery, Flying"	4.35E+03			"ANP 1 = Teleport in, ANP 10 = Basic hover, ANP 13 = Land on ground, ANP 14 = Basic standing, ANP 15 = Fire bubble, ANP 20 = Fly up, ANP 25 = Prepare attack, ANP 40 = Fire triple projectile"	498654			
+68	44	"Balrog, Running (boss)"	434D10				498658			
+69	45	Pignon (enemy)	4355F0				49865C			
+70	46	Sparkling Item	435AB0				498660			
+71	47	Chinfish (enemy)	435BA0				498664			
+72	48	Sprinkler	435DE0			"Direction 0 = On, 2 = Off"	498668			
+73	49	"Water Drop, 1"	435FC0				49866C			
+74	4A	Jack	436180			ANP 8 = Walk forward	498670			
+75	4B	Kanpachi	436540				498674			
+76	4C	Flowers	436650				498678			
+77	4D	Sandaime's Pavillion	436690				49867C			
+78	4E	Pot	4.37E+03				498680			
+79	4F	Mahin	436870			ANP 2 = Look forward	498684			
+80	50	Gravekeeper (enemy)	436AE0				498688			
+81	51	Giant Pignon (enemy)	4370F0				49868C			
+82	52	"Misery, Standing"	4.38E+03				498690			
+83	53	"Igor, standing"	437D90			"ANP 2 = Walk forward, ANP 4 = Slow punch, ANP 5 = Fast punch"	498694			
+84	54	"Basu energy ball, 1 (projectile)"	438250		Partial		498698			
+85	55	Terminal	4383D0			"Direction 2 = Red Screen, ANP 1 = Activated"	49869C			
+86	56	Missile	438590			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = health get"	4986A0			
+87	57	Heart	438850			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = ammo get"	4986A4			
+88	58	Igor (boss)	438B10				4986A8			
+89	59	"Igor, dying"	439580				4986AC			
+90	5A	UNUSED & UNKNOWN	439B00			draws a single non-existing sprite with no other code whatsoever	4986B0			
+91	5B	Cage	439B50				4986B4			
+92	5C	"Sue, facing away"	439BC0				4986B8			
+93	5D	Chaco	439DC0			"ANP 3 = Walk Forward, ANP 10 = Sleeping"	4986BC			
+94	5E	Kulala (enemy)	43A220			ANP 10 = Activate Enemy AI	4986C0			
+95	5F	Jelly (enemy)	43A680				4986C4			
+96	60	"Fan, left"	43AAF0			Direction 2 = On	4986C8			
+97	61	"Fan, up"	43AD10			Direction 2 = On	4986CC			
+98	62	"Fan, right"	43AF20			Direction 2 = On	4986D0			
+99	63	"Fan, down"	43B140			Direction 2 = On	4986D4			
+100	64	Grate	43B350				4986D8			
+101	65	"Power Controls, screen"	43B410				4986DC			
+102	66	"Power Controls, power flow"	43B4E0				4.99E+03			
+103	67	Mannan red blast (projectile)	43B5F0				4.99E+07			
+104	68	Frog (enemy)	43B7F0				4.99E+11			
+105	69	Speech balloon 'Hey' low	43BD00				4986EC			
+106	6A	Speech balloon 'Hey' high	43BDB0				4986F0			
+107	6B	Malco	43BE00			"ANP 10 = Activated + Intruder Alert, ANP 16 = Intruder Alert, ANP 21 = Crushed"	4986F4			
+108	6C	Balfrog spitball (projectile)	43C4B0		Partial		4986F8			
+109	6D	"Malco, damaged"	43C610			ANP 10 = Spawn smoke	4986FC			
+110	6E	Puchi (enemy)	43C8E0				498700			
+111	6F	"Quote, teleporting out"	43CDE0				498704			
+112	70	"Quote, teleporting in"	43D0A0				498708			
+113	71	Professor Booster	43D320				49870C			
+114	72	Press (enemy)	43D860			Immediately falls with gravity	498710			
+115	73	Ravil (enemy)	43DAE0				498714			
+116	74	Red Flowers	4.30E+191				498718			
+117	75	"Curly, standing"	43E1E0			"ANP 3 = Walk forward, ANP 5 = Fall over, ANP 10 = Walk towards Quote, ANP 20 = Inspecting, ANP 21 = Looking up, ANP 30 = Knocked over, ANP 70 = Walk in place"	49871C			
+118	76	Curly (boss)	43E9B0				498720			
+119	77	Table & Chair	43F230				498724			
+120	78	"Colon, 1"	43F280				498728			
+121	79	"Colon, 2"	43F310				49872C			
+122	7A	Colon (enemy)	43F4A0				498730			
+123	7B	Curly Machine Gun bullet (projectile)	43FC70		Partial	"Accepts all four directions, only left and right are accessible from TSC/PXE"	498734			
+124	7C	Sunstone	43FEF0				498738			
+125	7D	Hidden Heart/Missile	4400D0			"Direction 0 = Heart, 2 = Missile. Always turns into the Direction 2 version of pickup, Destroyed when below 990HP (0x3DE)"	49873C			
+126	7E	"Puppy, running"	4401F0				498740			
+127	7F	"Machine Gun trail, Lv2 (projectile)"	440760		Partial		498744			
+128	80	"Machine Gun trail, Lv3 (projectile)"	4408B0		Partial		498748			
+129	81	Fireball/Snake trail (projectile)	440CF0		Partial		49874C			
+130	82	"Puppy, wagging tail"	441000				498750			
+131	83	"Puppy, sleeping"	441360				498754			
+132	84	"Puppy, barking"	441440				498758			
+133	85	Jenka	4419B0				49875C			
+134	86	Armadillo (enemy)	441B20				498760			
+135	87	Skeleton (enemy)	441EC0				498764			
+136	88	"Puppy, carried"	442340				498768			
+137	89	"Doorway, open"	442540				49876C			
+138	8A	"Doorway, closed doors"	442590			Direction 2 = Other side door	498770			
+139	8B	"Doctor, with crown"	442790				498774			
+140	8C	Frenzied Toroko (boss)	442BF0				498778			
+141	8D	Toroko block (projectile)	443AC0		Crash		49877C			
+142	8E	Flower Cub (enemy)	443EC0				498780			
+143	8F	"Jenka, collapsed"	444190				498784			
+144	90	"Toroko, teleporting in"	444230				498788			
+145	91	King's Blade (held)	444620		Crash	Spawned by King (61) and Credit NPC (352)	49878C			
+146	92	Lightning	444780			"Immediately strikes the location it was placed on, 333 is the version with a target"	498790			
+147	93	"Critter, Hovering Purple (enemy)"	444930				498794			
+148	94	Critter purple ball (projectile)	445050		Partial		498798			
+149	95	"Moving Block, Horizontal"	445170			"ANP 1 = Disabled, ANP 11 = Move left, ANP 12 = Move right"	49879C			
+150	96	Quote	445660			"ANP 2 = Looking up, ANP 10 = Fall down, ANP 20 = Teleport out, ANP 50 = Walk forward, ANP 60 = Fall upside down, ANP 70 = Walk in place, ANP 80 = Inspecting"	4987A0			
+151	97	"Blue Robot, standing"	4.45E+32				4987A4			
+152	98	"Shutter, stuck (enemy)"	445FA0				4987A8			
+153	99	Gaudi (enemy)	446020			Destroyed when below 986HP (0x3DA)	4987AC			
+154	9A	"Gaudi, dying"	446500				4987B0			
+155	9B	"Gaudi, flying (enemy)"	446710			Destroyed when below 986HP (0x3DA)	4987B4			
+156	9C	Gaudi spitball (projectile)	446B60		Partial		4987B8			
+157	9D	"Moving Block, Vertical"	446CA0			"ANP 1 = Disabled, ANP 11 = Move up, ANP 12 = Move down"	4987BC			
+158	9E	"Fish Missile, Green (enemy)"	447180				4987C0			
+159	9F	"Falling Cat, Monster X"	4474C0				4987C4			
+160	A0	Puu Black (boss)	447700				4987C8			
+161	A1	Puu Black bubble (projectile)	447CB0			Uses global/shared X/Y coordinates for aiming	4987CC			
+162	A2	"Puu Black, dying"	4.47E+92				4987D0			
+163	A3	Dr. Gero	4482A0				4987D4			
+164	A4	Nurse Hasumi	448410				4987D8			
+165	A5	"Curly, sleeping"	448580				4987DC			
+166	A6	Chaba	4.49E+03				4.99E+03			
+167	A7	"Professor Booster, falling"	4487F0				4.99E+07			
+168	A8	Boulder	448A10				4.99E+11			
+169	A9	"Balrog, Missiles (boss)"	448BE0				4987EC			
+170	AA	Balrog missile (projectile)	4495A0				4987F0			
+171	AB	Fire Whirrr (enemy)	4498C0				4987F4			
+172	AC	Fire Ring (projectile)	449C10				4987F8			
+173	AD	"Gaudi, armor"	449D70			Destroyed when below 986HP (0x3DA)	4987FC			
+174	AE	Gaudi Blade (projectile)	44A3C0		Partial	"Direction 0 = Floats in air, 2 = Falls down"	498800			
+175	AF	Gaudi Egg (enemy)	44A610			"Has gravity, Direction 0 = Normal, Direction 2 = Upside Down (""falls"" upward when upside down)"	498804			
+176	B0	Buyobuyo Base (enemy)	44A7D0			Destroyed when below 940HP (0x3AC)	498808			
+177	B1	Buyobuyo (enemy)	44ABB0				49880C			
+178	B2	Core Blade (projectile)	44AEE0		Partial		498810			
+179	B3	Core Wisp (projectile)	44B080				498814			
+180	B4	"Curly, AI"	44B210			ANP 20 = Teleports to player and follows	498818			
+181	B5	CurlyAI Machine Gun	44BE10		Dummy	Flag 563 determines which gun she uses of these two	49881C			
+182	B6	CurlyAI Polar Star	44C220		Dummy		498820			
+183	B7	Curly Air Tank bubble	44C630		Dummy		498824			
+184	B8	"Shutter, large"	44C7A0			ANP 10 = Move in direction specified	498828			
+185	B9	"Shutter, small"	44CA60			ANP 10 = Move in direction specified	49882C			
+186	BA	Lift Block	44CBE0			ANP 10 = Move in direction specified	498830			
+187	BB	Fuzz Core (enemy)	44CDB0				498834			
+188	BC	Fuzz (enemy)	44D070		Crash		498838			
+189	BD	Homing Flame (enemy)	44D3A0				49883C			
+190	BE	Surface Robot	44D5E0				498840			
+191	BF	Water Level	44D740				498844			
+192	C0	Scooter	44DA00				498848			
+193	C1	"Scooter, crashed"	44DE20				49884C			
+194	C2	"Blue Robot, destroyed"	44DEA0				498850			
+195	C3	Grate Mouth	44DF10				498854			
+196	C4	"Moving Wall, visual"	44DF60				498858			
+197	C5	Porcupine Fish (enemy)	4.40E+21				49885C			
+198	C6	IronHead red ring (projectile)	4.40E+261				498860			
+199	C7	"Underwater current, visual"	44E400				498864			
+200	C8	Dragon Zombie (enemy)	44E5F0			Destroyed when below 950HP (0x3B6)	498868			
+201	C9	"Dragon Zombie, dead"	44EC40				49886C			
+202	CA	Dragon Zombie fire (projectile)	44ECE0		Partial		498870			
+203	CB	"Critter, Hopping Aqua (enemy)"	44EE40				498874			
+204	CC	"Falling Spike, small"	44F1F0				498878			
+205	CD	"Falling Spike, large"	44F3E0			Also damages enemies with the landing hitbox (bullet 24 or 0x18)	49887C			
+206	CE	Counter Bomb (enemy)	44F6D0				498880			
+207	CF	Countdown Speech Bubble (projectile)	44FB40				498884			
+208	D0	"Basu, 2 (enemy)"	44FCB0				498888			
+209	D1	"Basu energy ball, 2 (projectile)"	450280				49888C			
+210	D2	"Beetle, Follow Aqua (enemy)"	450400				498890			
+211	D3	Spikes (small)	450760			"Event # = direction faced (0,1,2,3)"	498894			
+212	D4	Sky Dragon	450810				498898			
+213	D5	Night Spirit (enemy)	450BF0				49889C			
+214	D6	Night Spirit balloon (projectile)	4512A0				4988A0			
+215	D7	"Sandcroc, White (enemy)"	451430				4988A4			
+216	D8	Debug Cat	4517F0				4988A8			
+217	D9	Itoh	451840				4988AC			
+218	DA	Core large energy ball (projectile)	451CA0		Partial		4988B0			
+219	DB	Generator - Smoke/Underwater Current	451DA0			"Direction 0 = Smoke, 2 = Underwater Current"	4988B4			
+220	DC	"Shovel Brigade, standing"	4.51E+92				4988B8			
+221	DD	"Shovel Brigade, walking"	452000				4988BC			
+222	DE	Prison bars	452470				4988C0			
+223	DF	Momorin	4.52E+03				4988C4			
+224	E0	Chie	452700				4988C8			
+225	E1	Megane	4528D0				4988CC			
+226	E2	"Kanpachi, standing"	452A50			"ANP 10 = Walk forward, ANP 20 = Look opposite way"	4988D0			
+227	E3	Bucket	452D10				4988D4			
+228	E4	"Droll, guarding"	452D60				4988D8			
+229	E5	"Red Flowers, small"	4530D0				4988DC			
+230	E6	"Red Flowers, large"	453190				4.99E+03			
+231	E7	Rocket	453260			"ANP 10 = Propels, has a hardcoded height before stalling (but could probably subvert by recalling ANP 10?)"	4.99E+07			
+232	E8	Orangebell (enemy)	4536F0				4.99E+11			
+233	E9	Orangebell bat (enemy)	4539B0		Crash		4988EC			
+234	EA	"Red Flowers, picked"	4.53E+62				4988F0			
+235	EB	Midorin (enemy)	453F20				4988F4			
+236	EC	Gunfish (enemy)	454310				4988F8			
+237	ED	Gunfish bubble (projectile)	4548B0		Partial		4988FC			
+238	EE	Killer Press (enemy)	454A00			"The sideways ones, Direction 0 = Left, 2 = Right"	498900			
+239	EF	Cage bars	454DF0				498904			
+240	F0	Mimiga (wandering)	454F00				498908			
+241	F1	"Critter, Hopping Red (enemy)"	455370				49890C			
+242	F2	"Bat, Red Wave (enemy)"	455710				498910			
+243	F3	Generator - Red Bat	455A10				498914			
+244	F4	Lava Drop (projectile)	455AB0				498918			
+245	F5	Generator - Lava Drop	455C10				49891C			
+246	F6	"Press, Proximity (enemy)"	4.55E+02			"Floats, waits for player to walk underneath"	498920			
+247	F7	Misery (boss)	456110				498924			
+248	F8	Misery black ring (projectile)	456F50		Partial		498928			
+249	F9	"Misery, teleporting out"	4570B0				49892C			
+250	FA	Misery black lightning ball (projectile)	457180				498930			
+251	FB	Misery black lightning (projectile)	457470				498934			
+252	FC	Misery black orbiting rings (projectile)	457570		Crash		498938			
+253	FD	Energy Capsule 	4579D0			"Flag # = EXP to drop, recommend less than 100 or it can mess with flags (in vanilla they start at 100)"	49893C			
+254	FE	Helicopter	457B00				498940			
+255	FF	Helicopter Blades	457D70		Crash		498944			
+256	100	"Doctor, facing away"	458010				498948			
+257	101	Red Crystal	458360			Will float around some entities like Sue if you use specific ANP numbers	49894C			
+258	102	"Mimiga, sleeping"	4585A0				498950			
+259	103	"Curly, carried"	4585F0			Unconscious	498954			
+260	104	"Shovel Brigade, caged"	458810				498958			
+261	105	"Chie, caged"	458A70				49895C			
+262	106	"Chaco, caged"	458C30				498960			
+263	107	Doctor (boss)	458DF0				498964			
+264	108	Doctor red wave (projectile)	459950				498968			
+265	109	Doctor red ball (projectile)	459B30		Partial		49896C			
+266	10A	"Doctor red ball, bouncing (projectile)"	459C00		Partial		498970			
+267	10B	Muscle Doctor (boss)	459D80				498974			
+268	10C	Igor (enemy)	45B3D0				498978			
+269	10D	"Bat, Red Bouncing (enemy)"	45BCB0				49897C			
+270	10E	Red Energy/Blood	45BF10		Crash	Direction 2 requires a parent. Use Entity 281 to control a bunch of these together	498980			
+271	10F	Underwater Block	45C230				498984			
+272	110	Generator - Underwater Block	45C500				498988			
+273	111	Droll blade (projectile)	45C5A0		Partial		49898C			
+274	112	Droll (enemy)	45C750				498990			
+275	113	"Puppy, sitting"	45CC80				498994			
+276	114	Red Demon (boss)	45CEA0				498998			
+277	115	Red Demon blade (projectile)	45D780		Partial		49899C			
+278	116	Little Family	45D930			Direction 2 = Little kid ??	4989A0			
+279	117	Falling Block	45DCF0				4989A4			
+280	118	"Sue, teleporting in"	4.50E+111				4989A8			
+281	119	"Doctor, Red Energy Form"	45E360				4989AC			
+282	11A	"Mini Undead Core, moving"	45E4C0				4989B0			
+283	11B	"Misery, Puppet (enemy)"	45E950			Destroyed when below 400HP (0x190)	4989B4			
+284	11C	Frenzied Sue (enemy)	45F910			Destroyed when below 500HP (0x1F4)	4989B8			
+285	11D	Undead Core flame spiral (projectile)	460910				4989BC			
+286	11E	Undead Core flame spiral trail (projectile)	460AE0			Only exists for a few frames	4989C0			
+287	11F	Orange Smoke	460BB0				4989C4			
+288	120	Undead Core exploding rock (projectile)	460D70				4989C8			
+289	121	"Critter, Hopping Orange, disappears (enemy)"	4610D0				4989CC			
+290	122	"Bat, Fast Orange, disappears (enemy)"	4614A0				4989D0			
+291	123	"Mini Undead Core, stationary"	461800				4989D4			
+292	124	Quake	4618B0				4989D8			
+293	125	Undead Core large energy ball (projectile)	4618C0				4989DC			
+294	126	Generator - Falling Block	4.62E+03				4.99E+03			
+295	127	Cloud	461B90				4.99E+07			
+296	128	Generator - Cloud	4.61E+42				4.99E+11			
+297	129	"Sue, on sky dragon"	461FD0		Crash		4989EC			
+298	12A	"Doctor, without crown"	462050				4989F0			
+299	12B	Balrog/Misery in bubble	4623D0				4989F4			
+300	12C	Demon Crown	4.62E+03				4989F8			
+301	12D	"Fish Missile, Orange (enemy)"	4625A0				4989FC			
+302	12E	Camera Focus Marker	462890			"ANP 100 = Will attempt to find an entity with the event number matching the given direction, and then sit inbetween them and the player. There's a bunch more ANP's but that's the main one"	498A00			
+303	12F	UNUSED/DOES NOTHING (Old Version of Curly's Gun?)	462AF0		Dummy	"Pretty sure it's unused, but not 100% checked"	498A04			
+304	130	"Gaudi, sitting"	462C80				498A08			
+305	131	"Puppy, small"	4.62E+02				498A0C			
+306	132	"Balrog, nurse"	462F60			"Direction 0 = Balrog, 2 = Nurse Puu Black"	498A10			
+307	133	"Santa, caged"	4630F0				498A14			
+308	134	Stumpy (enemy)	4632B0				498A18			
+309	135	"Bute, flying, 1 (enemy)"	463710			"Begins to follow player when just off camera, Destroyed when below 997HP (0x3E5)"	498A1C			
+310	136	"Bute, sword (enemy)"	463AC0			Destroyed when below 997HP (0x3E5)	498A20			
+311	137	"Bute, archer (enemy)"	464090			Destroyed when below 993HP (0x3E1)	498A24			
+312	138	Bute arrow (projectile)	464740				498A28			
+313	139	Ma Pignon (boss)	464BB0				498A2C			
+314	13A	Ma Pignon rock (projectile)	465CC0				498A30			
+315	13B	Ma Pignon clone (enemy)	465F60				498A34			
+316	13C	"Bute, dying"	4664B0				498A38			
+317	13D	Mesa (enemy)	466790			Destroyed when below 937HP (0x3A9)	498A3C			
+318	13E	"Mesa, dying"	466B80				498A40			
+319	13F	Mesa block (projectile)	4.66E+52		Crash		498A44			
+320	140	"Curly, carried, shooting"	4670C0				498A48			
+321	141	Curly Nemesis bullet spawner (projectile)	4673F0		Dummy		498A4C			
+322	142	Deleet (enemy)	4676D0			Activates state when below 969HP (0x3C9)	498A50			
+323	143	"Bute, spawned (enemy)"	467C60			"Immediately spawns with spinning animation, Destroyed when below 997HP (0x3E5)"	498A54			
+324	144	Generator - Bute	467F40			Must be <ANP'd in order to spawn a group of butes	498A58			
+325	145	Heavy Press lightning (projectile)	467FE0			"Creates flashing graphic, then strikes with lightning"	498A5C			
+326	146	Itoh/Sue turning human	468230			"Direction 0 = Itoh, 2 = Sue"	498A60			
+327	147	Itoh/Sue 'Ah Choo!'	468830		Crash		498A64			
+328	148	Transmogrifier	468990				498A68			
+329	149	Building fan	4.69E+03				498A6C			
+330	14A	Rolling (enemy)	468A90			"Direction = Initial direction, always turns right when touching a wall"	498A70			
+331	14B	Ballos bone (projectile)	468D70				498A74			
+332	14C	Ballos shockwave (projectile)	468F50				498A78			
+333	14D	Ballos lightning target (projectile)	469140			"Target NPC, Direction 0 = Target with lightning NPC 146, 2 = Target only"	498A7C			
+334	14E	Sweat Drop	469290			"Used in Boulder Chamber when Quote and Curly attempt to lift the Boulder. Direction 0 uses the entity position (plus an offset), any other direction snaps to the player's position"	498A80			
+335	14F	Ikachan	469430				498A84			
+336	150	Generator - Ikachan	469610			"Despawns when player is damaged, can use <NCJ to check"	498A88			
+337	151	Numahachi	4696B0				498A8C			
+338	152	Green Devil (enemy)	469800				498A90			
+339	153	Generator - Green Devil	469AA0				498A94			
+340	154	Ballos (boss)	469B40			Ballos' first form	498A98			
+341	155	Ballos 1 head	46B240		Crash	Used as animation for NPC340	498A9C			
+342	156	Ballos 3 eyeball (enemy)	46B340		Crash		498AA0			
+343	157	Ballos 2 cutscene	46BD80		Crash		498AA4			
+344	158	Ballos 2 eyes	46BE10		Crash		498AA8			
+345	159	Ballos 3 skull (projectile)	46BF00				498AAC			
+346	15A	Ballos 4 orbiting platform	46C1D0		Crash		498AB0			
+347	15B	Hoppy (enemy)	46C710				498AB4			
+348	15C	Ballos 4 spikes	46C9B0			"Hardcoded damage, grow upwards when spawned until ~1 block high"	498AB8			
+349	15D	Statue	46CAC0				498ABC			
+350	15E	"Bute, flying archer (enemy)"	46CB50			"The red ones that appear during Ballos stage 4, always have hardcoded distances between them and the edges of maps, Destroyed when below 997HP (0x3E5)"	498AC0			
+351	15F	Statue (enemy)	46D340				498AC4			
+352	160	Credits-Drop Universal NPC	46D5D0			Depending on the ANP it can display any of the NPC's that are in the credits	498AC8			
+353	161	"Bute, flying, 2 (enemy)"	46DBE0			"The red ones that appear during Ballos stage 4, Destroyed when below 997HP (0x3E5)"	498ACC			
+354	162	Invisible deathtrap wall	4.60E+111				498AD0			
+355	163	"Quote+Curly, Balrog ending cutscenes"	4.60E+281		Crash	Spawned by and attached to Balrog entity 12 (ANP 100) and 356.	498AD4			
+356	164	"Balrog, rescue"	46E480				498AD8			
+357	165	"Puppy, ghost"	46E730				498ADC			
+358	166	"Misery, tall, wind"	46E870				498AE0			
+359	167	Generator - Water Drop	46E9E0				498AE4			
+360	168	"Text, 'Thank You!'"	46EA90				498AE8			
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										

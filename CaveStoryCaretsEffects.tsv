@@ -1,0 +1,19 @@
+ID (dec)	ID (hex)	Effect Name	Function Address	Function Pointer	Other notes
+0	0	Null	409670	48F8C0	
+1	1	Pulsing Disc Particles	409680	48F8C4	"(mode 0: blue discs, mode 1: red discs)"
+2	2	Rising Disc / Exploding Diamond	409880		"(mode 0: rising green disc, mode 1: pulsing disc, mode 2: exploding cross)"
+3	3	Star	409B80		(mode 0 only)
+4	4	Fireball Impact	409C70		(mode 0-2 are different orientations)
+5	5	ZzZ...	4.09E+02		(mode 0 only)
+6	6	(same as 04)	409F60		
+7	7	Booster smoke	40A120		"(mode 0-3 directions, 4 is pulsing)"
+8	8	Drowned Quote	40A1B0		"(mode 0: face left, mode 1: face right)"
+9	9	Exclamation	40A280		"(mode 0: question mark, mode 1: exclamation mark)"
+10	A	Level Up/Down	40A3F0		"(mode 0: level up, mode 1: level down)"
+11	B	"Red ""damage"" discs"	40A5A0		(mode 0 only)
+12	C	"White ""explosion"" disc"			(mode 0 only)
+13	D	Headbump sparks	40A650		(mode 0 only)
+14	E	Broken/cut/scrapped explosion effect			Framerects need to be moved to make it useful
+15	F	"Small white ""pop"""			(mode 0 only)
+16	10	Empty!			(mode 0 only)
+17	11	Push jump key!			(mode 0 only) Doesn't disappear

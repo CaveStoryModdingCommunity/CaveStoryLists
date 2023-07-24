@@ -1,0 +1,43 @@
+ID (hex)	ID (dec) (CMU)	Official Music Name	Internal Name	Memory Offset	Description
+0	0	(none)	XXXX	48C838	Silence (played whenever CMU0000 is used)
+1	1	Mischievous Robot	WANPAKU	48C840	Egg Chamber
+2	2	Safety	ANZEN	48C848	"Various homes, Title Screen - Sue"
+3	3	Game Over	GAMEOVER	48C850	Game over
+4	4	Gravity	GRAVITY	48C85C	Boss battle (usually minor ones)
+5	5	On To Grasstown	WEED	48C864	Grasstown
+6	6	Meltdown 2	MDOWN2	48C86C	Sand Zone
+7	7	Eyes of Flame	FIREEYE	48C874	Major boss battle
+8	8	Gestation	VIVI	48C87C	"First Cave, various small rooms"
+9	9	Mimiga Town	MURA	48C884	Mimiga Village
+A	10	Got Item!	FANFALE1	48C88C	Get item
+B	11	Balrog's Theme	GINSUKE	48C898	Balrog cutscenes
+C	12	Cemetary	CEMETERY	48C8A0	Graveyard
+D	13	Plant	PLANT	48C8AC	Yamashita Farm
+E	14	Pulse	KODOU	48C8B4	"Egg No. 00, Waterway Cabin, Arthur's House after Waterway"
+F	15	Victory!	FANFALE3	48C8BC	Boss defeated
+10	16	Get Heart Tank!	FANFALE2	48C8C8	Get life capsule
+11	17	Tyrant	DR	48C8D4	Doctor cutscenes
+12	18	Run!	ESCAPE	48C8D8	"Balcony areas after boss fights, Main Artery (Ironhead boss)"
+13	19	Jenka 1	JENKA	48C8E0	"Jenka's House, Labyrinth I & H (first two areas)"
+14	20	Labyrinth Fight	MAZE	48C8E8	Labyrinth M (gaudi eggs)
+15	21	Access	ACCESS	48C8F0	Shelter (Kazuma on computer intros)
+16	22	Oppression	IRONH	48C8F8	Core battle
+17	23	Geothermal	GRAND	48C900	"Dark Place, Core"
+18	24	Cave Story	CURLY	48C908	"Title screen, Plantation"
+19	25	Moonsong	OSIDE	48C910	Outer Wall
+1A	26	Hero's End	REQUIEM	48C918	Bad ending
+1B	27	Scorching Back	WANPAK2	48C920	Egg Corridor?
+1C	28	Quiet	QUIET	48C928	Mimiga Village and homes after Waterway
+1D	29	Final Cave	LASTCAVE	48C930	Last Cave
+1E	30	Balcony	BALCONY	48C93C	Balcony
+1F	31	Charge	LASTBTL	48C944	Muscle Doctor battle
+20	32	Last Battle	LASTBT3	48C94C	Both final battles
+21	33	The Way Back Home	ENDING	48C954	Credits
+22	34	Zombie	ZONBIE	48C95C	"Before Undead Core battle, after Ballos battle"
+23	35	Break Down	BDOWN	48C964	Normal ending
+24	36	Running Hell	HELL	48C96C	"Sacred Grounds, Title Screen - Curly"
+25	37	Jenka 2	JENKA2	48C974	"Labyrinth W (main area w/shop, camp)"
+26	38	Living Waterway	MARINE	48C97C	Waterway
+27	39	Seal Chamber	BALLOS	48C984	Before Ballos battle
+28	40	Toroko's Theme	TOROKO	48C98C	Title Screen - Toroko
+29	41	White Stone Wall	WHITE	48C994	Title Screen - King
