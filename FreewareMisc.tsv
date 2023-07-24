@@ -1,4 +1,4 @@
-ID (dec)	ID (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other notes	Function Pointer	Left Rect	Right Rect	Default Sprite Sheet
+Id (dec)	Id (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other notes	Function Pointer	Left Rect	Right Rect	Default Sprite Sheet
 N/A	N/A	Balfrog Hitbox 2	47A6A0				47A588			
 N/A	N/A	Balfrog Sprite 2	47A800				47A58D			
 N/A	N/A	Monster X Wheels	47F710				47F3A2			
@@ -16,7 +16,7 @@ N/A	N/A	Monster X Targeting Turret	480550				47F477
 							47F4A7			
 							47F4BF			
 N/A	N/A	Mini Core	473DE0				4751D5			
-							4.75E+05			
+							475100			
 							4751EF			
 							4751FC			
 							475209			
@@ -30,8 +30,8 @@ N/A	N/A	Sister Body	47DAA0				47DA0C
 							47DA26			
 N/A	N/A	Undead Core Open Mouth	476B90				4765C9			
 N/A	N/A	Undead Core Sprite 1	476790				4765D6			
-N/A	N/A	Undead Core Sprite 2	4769A0				4.77E+06			
-N/A	N/A	Undead Minicore Sprite 1	4.76E+52				4765F0			
+N/A	N/A	Undead Core Sprite 2	4769A0				4765000			
+N/A	N/A	Undead Minicore Sprite 1	476E50				4765F0			
 							4765FD			
 							47660A			
 							476617			
@@ -43,4 +43,4 @@ N/A	N/A	Ballosball Eye Hitbox	478AA0				476624
 							476631			
 N/A	N/A	Ballosball Graphic	478F20				4788C9			
 N/A	N/A	Ballosball Top Hitbox?	478FE0				4788D6			
-N/A	N/A	Ballosball Bottom Hitbox?	479010				4.79E+06			
+N/A	N/A	Ballosball Bottom Hitbox?	479010				4788000			

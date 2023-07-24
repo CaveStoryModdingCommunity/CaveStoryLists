@@ -1,4 +1,4 @@
-ID (dec)	ID (hex)	Bullet Name	Function Address	Function Pointer	Other notes
+Id (dec)	Id (hex)	Bullet Name	Function Address	Function Pointer	Other notes
 0	0	Null	N/A	N/A	
 1	1	Snake 1	404160	409053	
 2	2	Snake 2	4043F0	40906F	
@@ -22,10 +22,10 @@ ID (dec)	ID (hex)	Bullet Name	Function Address	Function Pointer	Other notes
 20	14	Bubbler 2	406190	40925D	
 21	15	Bubbler 3	4064D0	409277	
 22	16	Bubbler 3 (after popping)	4068B0	409290	
-23	17	Blade 3 Slashes	4.08E+03	4092AA	
+23	17	Blade 3 Slashes	4075E0	4092AA	
 24	18	Falling Spike Hitbox	4078A0	4092C4	Those -127 spikes in destroyed Egg Corridor
 25	19	Blade 1	406BB0	4092DD	
-26	1A	Blade 2	4.06E+62	4092F7	
+26	1A	Blade 2	406E60	4092F7	
 27	1B	Blade 3	407110	409311	
 28	1C	Super Missile 1	407910	40932C	
 29	1D	Super Missile 2	407910	409348	

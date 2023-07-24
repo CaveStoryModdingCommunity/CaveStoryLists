@@ -1,4 +1,4 @@
-ID (dec)	ID (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other notes	Function Pointer	Left Rect	Right Rect	Default Sprite Sheet
+Id (dec)	Id (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other notes	Function Pointer	Left Rect	Right Rect	Default Sprite Sheet
 361	169	Null	472FF0				498AEC			
 362	16A	Omega (boss)	47B6F0			Coded with direct references to variables instead of a struct pointer (less optimisation)	498AF0			
 363	16B	Balfrog (boss)	479030				498AF4			

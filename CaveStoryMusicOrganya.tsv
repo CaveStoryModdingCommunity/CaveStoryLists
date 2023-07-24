@@ -1,4 +1,4 @@
-ID (hex)	ID (dec) (CMU)	Official Music Name	Internal Name	Memory Offset	Description
+Id (hex)	Id (dec) (CMU)	Official Music Name	Internal Name	Memory Offset	Description
 0	0	(none)	XXXX	48C838	Silence (played whenever CMU0000 is used)
 1	1	Mischievous Robot	WANPAKU	48C840	Egg Chamber
 2	2	Safety	ANZEN	48C848	"Various homes, Title Screen - Sue"

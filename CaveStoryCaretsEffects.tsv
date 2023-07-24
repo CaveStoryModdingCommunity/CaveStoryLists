@@ -1,10 +1,10 @@
-ID (dec)	ID (hex)	Effect Name	Function Address	Function Pointer	Other notes
+Id (dec)	Id (hex)	Effect Name	Function Address	Function Pointer	Other notes
 0	0	Null	409670	48F8C0	
 1	1	Pulsing Disc Particles	409680	48F8C4	"(mode 0: blue discs, mode 1: red discs)"
 2	2	Rising Disc / Exploding Diamond	409880		"(mode 0: rising green disc, mode 1: pulsing disc, mode 2: exploding cross)"
 3	3	Star	409B80		(mode 0 only)
 4	4	Fireball Impact	409C70		(mode 0-2 are different orientations)
-5	5	ZzZ...	4.09E+02		(mode 0 only)
+5	5	ZzZ...	409E00		(mode 0 only)
 6	6	(same as 04)	409F60		
 7	7	Booster smoke	40A120		"(mode 0-3 directions, 4 is pulsing)"
 8	8	Drowned Quote	40A1B0		"(mode 0: face left, mode 1: face right)"
