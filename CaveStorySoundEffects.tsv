@@ -1,0 +1,161 @@
+ID (dec)	ID (hex)	Effect Name	Other notes
+0	0	Silent	Is used by the freeware game.
+1	1	Y/N Change Choice	
+2	2	Message Typing	
+3	3	PC Bump Head	
+4	4	Switch Weapon	
+5	5	Y/N Prompt	
+6	6	High Pitch Critter Hop	
+7	7	Silent	Is used by the freeware game (need to determine where).
+8	8	Unused/Silent	
+9	9	Unused/Silent	
+10	A	Unused/Silent	
+11	B	Door Open	
+12	C	Destroy Breakable Block	
+13	D	Unused/Silent	
+14	E	Get EXP	
+15	F	PC Jump	
+16	10	PC Hurt	
+17	11	PC Die	
+18	12	Y/N Confirm	
+19	13	Unused/Silent	
+20	14	PC Heal	
+21	15	Bubble	
+22	16	Chest Open	
+23	17	PC Hit Ground	
+24	18	PC Walk	
+25	19	Silly Explosion	
+26	1A	Large Object Hit Ground	
+27	1B	Level Up!	
+28	1C	Shot Hit Wall	
+29	1D	Teleport	
+30	1E	Critter Hop	
+31	1F	Shot Hit Invulnerable Entity	
+32	20	Polar Star Shoot Level 1/2	
+33	21	Fireball Shoot	
+34	22	Fireball Bounce	
+35	23	large Explosion	
+36	24	Unused/Silent	
+37	25	No Ammo	
+38	26	Item Get	
+39	27	Enemy Shoot Projectile	
+40	28	Stream Noise (<SSS)	
+41	29	Stream Noise (<SSS)	
+42	2A	PC Missile Get	
+43	2B	Computer Screen On	
+44	2C	Missile Impact	
+45	2D	EXP Bounce	
+46	2E	Iron Head Shot	
+47	2F	Strange Click	
+48	30	Bubbler Shoot	
+49	31	Polar Star Shoot Level 3	
+50	32	Toroko/Enemy Squeal	
+51	33	Critter/Small Hurt	
+52	34	Behemoth/Large Hurt	
+53	35	Gaudi Die	
+54	36	Heavy Press/Large Object Hurt	
+55	37	High Pitched Gaudi Die	
+56	38	Water Splash	
+57	39	Curly/Object Hurt	
+58	3A	Helicopter Blades (<SPS)	
+59	3B	Spur Charge Level 1	
+60	3C	Spur Charge Level 2	
+61	3D	Spur Charge Level 3	
+62	3E	Spur Shoot Level 1	
+63	3F	Spur Shoot Level 2	
+64	40	Spur Shoot Level 3	
+65	41	Spur Charge MAX	
+66	42	Unused/Silent	
+67	43	Unused/Silent	
+68	44	Unused/Silent	
+69	45	Unused/Silent	
+70	46	Enemy Smoke Poof	
+71	47	PC Smash Into Ground	
+72	48	Explosion	
+73	49	Unused/Silent	
+74	4A	Unused/Silent	
+75	4B	Unused/Silent	
+76	4C	Unused/Silent	
+77	4D	Unused/Silent	
+78	4E	Unused/Silent	
+79	4F	Unused/Silent	
+80	50	Unused/Silent	
+81	51	Unused/Silent	
+82	52	Unused/Silent	
+83	53	Unused/Silent	
+84	54	Unused/Silent	
+85	55	Unused/Silent	
+86	56	Unused/Silent	
+87	57	Unused/Silent	
+88	58	Unused/Silent	
+89	59	Unused/Silent	
+90	5A	Unused/Silent	
+91	5B	Unused/Silent	
+92	5C	Unused/Silent	
+93	5D	Unused/Silent	
+94	5E	Unused/Silent	
+95	5F	Unused/Silent	
+96	60	Unused/Silent	
+97	61	Unused/Silent	
+98	62	Unused/Silent	
+99	63	Unused/Silent	
+100	64	Bubbler Shoot Level 3	
+101	65	Lightning	
+102	66	Sand Croc	
+103	67	Ballos Ball/etc. Charge	
+104	68	Secret Item Hurt	makepixtoneobject is called for id 104 twice in generic load. Technically leaks memory.
+105	69	Puppy Bark	
+106	6A	Spinning Projectile	
+107	6B	Block Move	
+108	6C	Power Critter/Large Enemy Jump	
+109	6D	Critter Fly	
+110	6E	Power Critter Flys	
+111	6F	Thud	
+112	70	Large Thud	
+113	71	Booster	
+114	72	Core Hurt	
+115	73	Core Thrust	
+116	74	Core Charge	
+117	75	Nemesis Shoot	
+118	76	Unused/Silent	
+119	77	Unused/Silent	
+120	78	Unused/Silent	
+121	79	Unused/Silent	
+122	7A	Unused/Silent	
+123	7B	Unused/Silent	
+124	7C	Unused/Silent	
+125	7D	Unused/Silent	
+126	7E	Unused/Silent	
+127	7F	Unused/Silent	
+128	80	Unused/Silent	
+129	81	Unused/Silent	
+130	82	Unused/Silent	
+131	83	Unused/Silent	
+132	84	Unused/Silent	
+133	85	Unused/Silent	
+134	86	Unused/Silent	
+135	87	Unused/Silent	
+136	88	Unused/Silent	
+137	89	Unused/Silent	
+138	8A	Unused/Silent	
+139	8B	Unused/Silent	
+140	8C	Unused/Silent	
+141	8D	Unused/Silent	
+142	8E	Unused/Silent	
+143	8F	Unused/Silent	
+144	90	Unused/Silent	
+145	91	Unused/Silent	
+146	92	Unused/Silent	
+147	93	Unused/Silent	
+148	94	Unused/Silent	
+149	95	Unused/Silent	
+150	96	Bass (Bass01)	
+151	97	Snare (Snare01)	
+152	98	HiClose (HiClose)	
+153	99	HiOpen (HiOpen)	
+154	9A	Tom (Tom01)	
+155	9B	Per (Per01)	
+156	9C	Unused/Silent	(would be used by org channel U)
+157	9D	Unused/Silent	(would be used by org channel I)
+158	9E	Unused/Silent	
+159	9F	Unused/Silent	
