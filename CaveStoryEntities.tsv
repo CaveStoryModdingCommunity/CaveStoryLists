@@ -85,8 +85,8 @@ Id (dec)	Id (hex)	Entity Name	Function Address	Type	PXE/TSC Compatibility	Other 
 83	53	"Igor, standing"	437D90			"ANP 2 = Walk forward, ANP 4 = Slow punch, ANP 5 = Fast punch"	0 - None	10	22 - <Spritesheet 2>		0	0	3	0	2	"8,1,8,16"	"20,20,20,20"					498694
 84	54	"Basu energy ball, 1 (projectile)"	438250		Partial		0 - None	1	21 - <Spritesheet 1>		70	50	1	0	1	"2,2,2,2"	"8,8,8,8"					498698
 85	55	Terminal	4383D0			"Direction 2 = Red Screen, ANP 1 = Activated"	0 - None	0	20 - NpcSym.pbm		0	0	2	0	0	"5,8,5,8"	"8,16,8,8"					49869C
-86	56	Missile	438590			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = health get"	0 - None	1	20 - NpcSym.pbm		0	0	2	1	0	"6,6,6,6"	"8,8,8,8"					4986A0
-87	57	Heart	438850			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = ammo get"	0 - None	2	20 - NpcSym.pbm		0	0	2	2	0	"6,6,6,6"	"8,8,8,8"					4986A4
+86	56	Missile	438590			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = ammo get"	0 - None	1	20 - NpcSym.pbm		0	0	2	1	0	"6,6,6,6"	"8,8,8,8"					4986A0
+87	57	Heart	438850			"Direction 2 = Doesn't despawn, EXP drop on death value [X+44] = health get"	0 - None	2	20 - NpcSym.pbm		0	0	2	2	0	"6,6,6,6"	"8,8,8,8"					4986A4
 88	58	Igor (boss)	438B10				"32800 - Shootable, ShowDamage"	300	22 - <Spritesheet 2>		72	52	3	1	0	"8,16,8,16"	"20,20,20,20"					4986A8
 89	59	"Igor, dying"	439580				0 - None	300	22 - <Spritesheet 2>		72	52	3	0	0	"8,16,8,16"	"20,20,20,20"					4986AC
 90	5A	UNUSED & UNKNOWN	439B00			draws a single non-existing sprite with no other code whatsoever	0 - None	0	22 - <Spritesheet 2>		0	0	0	0	0	"4,8,4,8"	"8,16,8,8"					4986B0
