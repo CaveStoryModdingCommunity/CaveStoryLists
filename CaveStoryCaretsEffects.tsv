@@ -5,15 +5,15 @@ Id (dec)	Id (hex)	Effect Name	Function Address	Function Pointer	Other notes
 3	3	Star	409B80		(mode 0 only)
 4	4	Fireball Impact	409C70		(mode 0-2 are different orientations)
 5	5	ZzZ...	409E00		(mode 0 only)
-6	6	(same as 04)	409F60		
-7	7	Booster smoke	40A120		"(mode 0-3 directions, 4 is pulsing)"
-8	8	Drowned Quote	40A1B0		"(mode 0: face left, mode 1: face right)"
-9	9	Exclamation	40A280		"(mode 0: question mark, mode 1: exclamation mark)"
-10	A	Level Up/Down	40A3F0		"(mode 0: level up, mode 1: level down)"
-11	B	"Red ""damage"" discs"	40A5A0		(mode 0 only)
-12	C	"White ""explosion"" disc"			(mode 0 only)
+6	6	(same as 04)	409C70		
+7	7	Booster smoke	409F60		"(mode 0-3 directions, 4 is pulsing)"
+8	8	Drowned Quote	40A120		"(mode 0: face left, mode 1: face right)"
+9	9	Exclamation	40A1B0		"(mode 0: question mark, mode 1: exclamation mark)"
+10	A	Level Up/Down	40A280		"(mode 0: level up, mode 1: level down)"
+11	B	"Red ""damage"" discs"	40A3F0		mode 0 only)
+12	C	"White ""explosion"" disc"	40A5A0		(mode 0 only)
 13	D	Headbump sparks	40A650		(mode 0 only)
-14	E	Broken/cut/scrapped explosion effect			Framerects need to be moved to make it useful
-15	F	"Small white ""pop"""			(mode 0 only)
-16	10	Empty!			(mode 0 only)
-17	11	Push jump key!			(mode 0 only) Doesn't disappear
+14	E	Broken/cut/scrapped explosion effect	40A7E0		Framerects need to be moved to make it useful
+15	F	"Small white ""pop"""	40A8F0		(mode 0 only)
+16	10	Empty!	40A9E0		(mode 0 only)
+17	11	Push jump key!	40AAA0		(mode 0 only) Doesn't disappear
